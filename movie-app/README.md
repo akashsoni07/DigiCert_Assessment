@@ -2,7 +2,7 @@
 
 A modern, responsive React application that displays Star Wars movies with detailed information, built with Redux Toolkit, TypeScript, and Tailwind CSS.
 
-## 🌟 Features
+## Features
 
 ### Core Functionality
 - **Movie List**: Display all Star Wars movies in a sortable table
@@ -18,29 +18,7 @@ A modern, responsive React application that displays Star Wars movies with detai
 - **API Integration**: Robust integration with the Star Wars API
 - **Containerization**: Docker support for easy deployment
 
-## 🏗️ Project Structure
-
-```
-src/
-├── components/          # Reusable UI components
-│   ├── ErrorBoundary.tsx
-│   ├── LoadingSpinner.tsx
-│   ├── MovieDetail.tsx
-│   ├── MovieList.tsx
-│   └── SortableTable.tsx
-├── services/           # API and external service integrations
-│   └── api.ts
-├── store/             # Redux store configuration
-│   ├── movieSlice.ts
-│   └── store.ts
-├── types/             # TypeScript type definitions
-│   └── movie.ts
-├── App.tsx            # Main application component
-├── main.tsx           # Application entry point
-└── index.css          # Global styles and Tailwind CSS
-```
-
-## 🎨 Design Choices & Architecture
+## Design Choices & Architecture
 
 ### 1. **Project Structure and Packaging**
 - **Modular Architecture**: Clear separation of concerns with dedicated folders for components, services, store, and types
@@ -85,7 +63,7 @@ src/
 - **Responsive Design**: Mobile-first approach with Tailwind CSS
 - **Accessibility**: Proper ARIA labels and keyboard navigation
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -96,7 +74,7 @@ src/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd star-wars-movie-app
+   cd movie-app
    ```
 
 2. **Install dependencies**
@@ -127,7 +105,7 @@ src/
 3. **Access the application**
    Navigate to `http://localhost:3000`
 
-## 📱 Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
@@ -136,7 +114,7 @@ src/
 - `npm run docker:build` - Build Docker image
 - `npm run docker:run` - Run Docker container
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 The application uses the Star Wars API at `https://swapi.info/api`. No API keys are required.
@@ -148,7 +126,7 @@ Custom Tailwind configuration with:
 - Custom animations
 - Utility classes
 
-## 🧪 Testing
+## Testing
 
 The application is structured to be easily testable:
 - Component isolation
@@ -156,7 +134,7 @@ The application is structured to be easily testable:
 - API service mocking
 - Error boundary testing
 
-## 📊 Performance Optimizations
+## Performance Optimizations
 
 - **Code Splitting**: Route-based code splitting
 - **Lazy Loading**: Components loaded on demand
@@ -164,30 +142,21 @@ The application is structured to be easily testable:
 - **Caching**: Proper HTTP caching headers
 - **Bundle Optimization**: Tree shaking and minification
 
-## 🔒 Security Features
+## Security Features
 
 - **Content Security Policy**: Comprehensive CSP headers
 - **XSS Protection**: Built-in XSS protection
 - **HTTPS Only**: Secure cookie settings
 - **Input Validation**: TypeScript type checking
 
-## 🌐 Browser Support
+## Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
 
-## 📈 Future Enhancements
-
-- **Pagination**: For large datasets
-- **Search Functionality**: Filter movies by title or director
-- **Favorites**: Save favorite movies
-- **Offline Support**: Service worker for offline functionality
-- **Dark Mode**: Toggle between light and dark themes
-- **Internationalization**: Multi-language support
-
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -195,11 +164,11 @@ The application is structured to be easily testable:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Star Wars API](https://swapi.info/) for providing the data
 - [React](https://reactjs.org/) for the UI framework
